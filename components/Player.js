@@ -83,14 +83,15 @@ function Player() {
         />
         <div>
           <h3>{songInfo?.name}</h3>
-          {songInfo?.artists?.map((artist, index, array) => (
+          <p className="w-40">{songInfo?.artists?.[0].name}</p>
+          {/* {songInfo?.artists?.map((artist, index, array) => (
             <span key={index}>
               <p className="w-40" style={{ display: "inline" }}>
                 {artist.name}
               </p>
               {index < array.length - 1 && <span>, </span>}
             </span>
-          ))}
+          ))} */}
         </div>
       </div>
 

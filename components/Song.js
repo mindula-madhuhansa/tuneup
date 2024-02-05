@@ -35,14 +35,15 @@ function Song({ order, track }) {
         <div>
           <p className="w-36 lg:w-64 truncate text-white">{track.track.name}</p>
 
-          {track.track.artists?.map((artist, index, array) => (
+          <p className="w-40">{track.track?.artists?.[0].name}</p>
+          {/* {track.track.artists?.map((artist, index, array) => (
             <span key={index}>
               <p className="w-40" style={{ display: "inline" }}>
                 {artist.name}
               </p>
               {index < array.length - 1 && <span>, </span>}
             </span>
-          ))}
+          ))} */}
         </div>
       </div>
 
