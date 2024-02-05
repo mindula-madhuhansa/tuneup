@@ -2,10 +2,14 @@ import Center from "@/components/Center";
 import Player from "@/components/Player";
 import Sidebar from "@/components/Sidebar";
 import { getSession } from "next-auth/react";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="bg-black h-screen overflow-hidden">
+      <Head>
+        <title>TuneUp</title>
+      </Head>
       <main className="flex">
         <Sidebar />
 
