@@ -40,7 +40,3 @@ Stream your Spotify playlists from anywhere!
 <img src="./screenshots/tablet.png">
 </div>
 </div>
-
-## 🙏 Special Thanks
-
-**This project was completed with the help of [Spotify Clone by Sonny Sangha](https://youtu.be/3xrko3GpYoU).**
